@@ -61,6 +61,10 @@ The project also ran each query 10 times and reported average runtimes as part o
 
 The preserved Cypher statements from the original presentation are available in `cypher/queries.cypher`.
 
+## Original Presentation
+
+The original group presentation is included as [`Spotify Music Graph Project.pdf`](./Spotify%20Music%20Graph%20Project.pdf). It contains the project workflow, Neo4j query screenshots, reported runtimes, challenges, and lessons learned.
+
 ## Challenges
 
 The project identified several practical database and data-cleaning challenges:
@@ -88,6 +92,7 @@ The original source-code and CSV files are no longer available. This portfolio r
 ```text
 Spotify-Music-Graph-Analysis/
 ├── README.md
+├── Spotify Music Graph Project.pdf
 └── cypher/
     └── queries.cypher
 ```

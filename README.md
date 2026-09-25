@@ -45,6 +45,14 @@ The Neo4j database used graph relationships including:
 
 These relationships allowed the project to move beyond flat tables and explore connections among music entities.
 
+A simplified graph structure used in the analysis was:
+
+```text
+(Track)-[:PERFORMED_BY]->(Artist)
+(Track)-[:BELONGS_TO]->(Album)
+(Track)-[:HAS_GENRE]->(Genre)
+```
+
 ## Cypher Analysis
 
 Seven query tasks were included in the original presentation:
